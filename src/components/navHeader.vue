@@ -1,9 +1,10 @@
 <script setup>
 import facebook from "./icons/fb.vue";
 import insta from "./icons/insta.vue";
+import logo from "../assets/mash-tun-icon.jpg";
 </script>
 <template lang="">
-  <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar bg-navbar shadow-sm">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
@@ -33,6 +34,11 @@ import insta from "./icons/insta.vue";
       </div>
     </div>
     <div class="navbar-center">
+      <img
+        :src="logo"
+        alt="Mash Tun Logo"
+        class="h-16 w-16 mr-2 rounded-full"
+      />
       <h1 class="text-xl xl:text-3xl gold">The Mash Tun</h1>
     </div>
     <div class="navbar-end flex flex-col items-end gap-2">
