@@ -2,9 +2,12 @@
 @plugin "daisyui";
 @import "./fonts.css";
 
+body {
+  font-family: "Challet", ui-sans-serif, system-ui;
+}
+
 .gold {
   color: #d4a750;
-  font-family: "Challet", ui-sans-serif, system-ui;
 }
 
 .bg-navbar {
