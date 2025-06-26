@@ -2,8 +2,8 @@
   <!-- Facebook Filled icon by Icons8 -->
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="43px"
-    height="43px"
+    width="22.5px"
+    height="22.5px"
     viewBox="0 0 24 24"
     fill="none"
   >
