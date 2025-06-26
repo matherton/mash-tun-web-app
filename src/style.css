@@ -1,8 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@import "./fonts.css";
 
 .gold {
   color: #d4a750;
+  font-family: "Challet", ui-sans-serif, system-ui;
 }
 
 .bg-navbar {
